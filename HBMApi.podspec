@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HBMApi"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "上证SDK"
 
   # This description is used to generate tags and improve search results.
@@ -91,12 +91,12 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.ios.vendored_library = 'HBMApi/*.a'
-  # spec.source_files = 'HBMApi/include/MApi/*.h'
-  # spec.public_header_files = 'HBMApi/include/MApi/*.h'
- spec.ios.vendored_library = '*.a'
-  spec.source_files = 'include/MApi/*.h'
-  spec.public_header_files = 'include/MApi/*.h'
+  spec.ios.vendored_library = 'HBMApi/*.a'
+  spec.source_files = 'HBMApi/include/MApi/*.h'
+  spec.public_header_files = 'HBMApi/include/MApi/*.h'
+ # spec.ios.vendored_library = '*.a'
+ #  spec.source_files = 'include/MApi/*.h'
+ #  spec.public_header_files = 'include/MApi/*.h'
 
   # spec.public_header_files = "Classes/**/*.h"
 
